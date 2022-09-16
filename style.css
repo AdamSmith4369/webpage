@@ -1,0 +1,115 @@
+.navbar {
+  background-color: #d8d8f7;
+  border-top: 3px solid purple;
+  border-bottom: 3px solid purple;
+  box-shadow: 3px 2px 2px purple;
+}
+
+.nav-item a {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* .navbar-collapse {
+  display: flex;
+  justify-content: start;
+} */
+
+.navbar-toggler {
+  border: 3px solid purple;
+  box-shadow: 5px 5px 5px purple;
+}
+
+.navbar-toggler:hover {
+  background-color: #bcbcf9;
+}
+
+.carousel-item {
+  height: calc(100vh - 95px);
+}
+
+.carousel-caption h5 {
+  color: red;
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-caption p {
+  margin-top: 0rem;
+  padding-top: 0;
+  color: white;
+}
+
+.start,
+.regist {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  width: 8rem;
+}
+
+.start {
+  background-color: red;
+  color: white;
+}
+
+.regist {
+  background-color: rgb(235, 235, 25);
+  color: black;
+}
+
+.carousel-indicators button {
+  background-color: red !important;
+}
+
+.xxx {
+  width: 500px;
+  height: 500px;
+}
+
+.card-body a {
+  background-color: red;
+  border: none;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.card-body a:hover {
+  opacity: 0.4;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.learn {
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  opacity: 0.7;
+}
+
+.learn:hover {
+  opacity: 1;
+}
+
+.image-yan img {
+  border-radius: 50px;
+}
+
+.xxx p {
+  margin-top: 5rem;
+}
+
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin-right: 0.8rem;
+  transition: color 1s;
+}
+
+footer i:hover {
+  color: #dc3545;
+}
